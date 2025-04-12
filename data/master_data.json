@@ -1,0 +1,63 @@
+{
+    "da88d4ee-4f51-4642-a001-a1fceea6a56d": {
+        "token": "da88d4ee-4f51-4642-a001-a1fceea6a56d",
+        "email": "pbhuvanashankar@gmail.com",
+        "joining_date": "2025-04-15",
+        "employee_info": {},
+        "hr_info": {},
+        "status": "invited"
+    },
+    "0cb09013-6313-4b8f-8932-334ad07adf34": {
+        "token": "0cb09013-6313-4b8f-8932-334ad07adf34",
+        "email": "pbhuvanashankar@gmail.com",
+        "joining_date": "2025-04-16",
+        "employee_info": {
+            "full_name": "Bhuvanashankar Pandikumar",
+            "dob": "2022-01-16",
+            "email": "pbhuvanashankar@gmail.com",
+            "phone": "4389798495",
+            "address": "2100 Rue Du Fort",
+            "bank_details": "12345",
+            "tax_id": "98764",
+            "emergency_contact": "51342352"
+        },
+        "hr_info": {},
+        "status": "invited"
+    },
+    "9e2566b5-cb83-4228-a1c1-daf30c74da47": {
+        "token": "9e2566b5-cb83-4228-a1c1-daf30c74da47",
+        "email": "bhuvant20@gmail.com",
+        "joining_date": "2025-04-15",
+        "employee_info": {},
+        "hr_info": {
+            "employee_id": "12345",
+            "job_title": "abc",
+            "department": "bcd",
+            "manager_name": "geh",
+            "location": "nfk"
+        },
+        "status": "completed"
+    },
+    "59bffec9-911c-475a-bf8a-cb761cfa8633": {
+        "token": "59bffec9-911c-475a-bf8a-cb761cfa8633",
+        "email": "bhuvant20@gmail.com",
+        "joining_date": "2025-04-14",
+        "employee_info": {},
+        "hr_info": {},
+        "status": "invited"
+    },
+    "15e15df9-e13b-45ce-a9d3-4fa775c9033b": {
+        "token": "15e15df9-e13b-45ce-a9d3-4fa775c9033b",
+        "email": "anushads198@gmail.com",
+        "joining_date": "2025-04-14",
+        "employee_info": {},
+        "hr_info": {
+            "employee_id": "12345",
+            "job_title": "Data Analyst",
+            "department": "Manufacturing",
+            "manager_name": "Bhuvan",
+            "location": "Montreal"
+        },
+        "status": "completed"
+    }
+}
