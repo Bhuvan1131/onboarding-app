@@ -9,7 +9,9 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///onboarding.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
-
+# Create the DB on startup (works on Render too)
+with app.app_context():
+    db.create_all()
 # ---------- Email Helper ----------
 def send_email(recipient, subject, body):
     sender_email = "pbhuvanashankar@gmail.com"
