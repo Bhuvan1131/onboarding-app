@@ -6,7 +6,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 app = Flask(__name__)
-DATA_FILE = 'data/master_data.json'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///onboarding.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db.init_app(app)
 
 # ---------- Email Helper Function ----------
 def send_email(recipient, subject, body):
